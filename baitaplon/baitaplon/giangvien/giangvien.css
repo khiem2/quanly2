@@ -1,0 +1,49 @@
+body{
+  overflow: hidden;
+}
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-thumb{
+  background-color:gray;
+  border-radius: 15px;
+}
+.container-fluid{
+  border: 1px  #f1f1f1 solid;
+  overflow: hidden;
+}
+#user{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 20px;
+}
+.nameuser{
+  display: flex;
+  align-items: center;
+}
+#content{
+  height: 600px;
+  background-color: gray;
+}
+.nav-item{
+  margin-top: 50px;
+}
+.teacher{
+  overflow: hidden;
+  margin-top: 10px;
+}
+.teacher input{
+  margin-right: 5px;
+  width: 150px;
+}
+.import{
+  float: right;
+    margin-top: -36px;
+}
+.search{
+  margin-top: 20px;
+}
+td svg{
+  cursor: pointer;
+}

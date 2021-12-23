@@ -1,0 +1,131 @@
+body{
+  overflow: hidden;
+}
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-thumb{
+  background-color:gray;
+  border-radius: 15px;
+}
+.container-fluid{
+  border: 1px  #f1f1f1 solid;
+  overflow: hidden;
+}
+#user{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 20px;
+}
+.nameuser{
+  display: flex;
+  align-items: center;
+}
+#content{
+  height: 600px;
+  background-color: gray;
+}
+.nav-item{
+  margin-top: 50px;
+}
+.teacher{
+  overflow: hidden;
+  margin-top: 10px;
+}
+.teacher input{
+  margin-right: 5px;
+  width: 150px;
+}
+.import{
+  float: right;
+    margin-top: -36px;
+}
+.search{
+  margin-top: 20px;
+}
+td svg{
+  cursor: pointer;
+}
+#black,#black1{
+  background-color: black;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+#black1{display: block;}
+.change_teacher{
+  width:500px;
+  position: fixed;
+  top: 200px;
+  left: 400px;
+  background-color: white;
+  z-index: 100;
+  height: 230px;
+  display: none;
+
+}
+.change_teacher input{
+  width: 100px;
+
+}
+.change_teacher form{
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#cancel,#cancel1,#cancel2{
+  float: right;
+  margin-right: 10px;
+}
+.create_majors{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width:400px;
+  position: fixed;
+  top: 200px;
+  left: 500px;
+  background-color: white;
+  z-index: 100;
+  height: 230px;
+  display: none;
+}
+.create_subject,.change_subject{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width:400px;
+  position: fixed;
+  top: 200px;
+  left: 500px;
+  background-color: white;
+  z-index: 100;
+  height: 300px;
+  display: none;
+}
+.change_subject{
+  display: flex;
+  z-index: 1000;
+}
+.delete_majors{
+  position: absolute;
+  background-color: white;
+  top: 0px;
+  left: 100px;
+  height: 50px;
+  width: 100px;
+  z-index: 1000;
+  display: none;
+}
+.delete_majors div:hover{
+  background-color: gray;
+  cursor: pointer;
+}
